@@ -2,7 +2,7 @@ This is a program for analysing WhatsApp chats and producing statistics. The pro
 
 ### Checking whether you have Ruby installed and installing it if not. ###
 
-	To check if you have ruby installed, run ruby -v in the command line. Macs come with Ruby 1.9, I believe. PCs do not come with Ruby installed. This program was written and tested for Ruby 2.5.
+To check if you have ruby installed, run ruby -v in the command line. Macs come with Ruby 1.9, I believe. PCs do not come with Ruby installed. This program was written and tested for Ruby 2.5.
 
 	Download and install Ruby here: 
 	https://www.ruby-lang.org/en/documentation/installation/
