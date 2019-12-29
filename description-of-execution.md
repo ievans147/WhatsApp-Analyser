@@ -2,7 +2,7 @@ The program works by executing a single method, run, which then branches out int
 
 The run method contains three methods - preliminaries, analyse_data, and present_data, each of which call a series of sub-methods.
 
-Preliminaries accesses a hardcoded relative filepath, turns the file it finds into an array of strings, sorts out erros introduced by splitting by '\n', and then generates another array, deceptively called @master_array, from the strings. @master_array is an array of tuples, or sub-arrays, each one corresponding to a message. A given tuple contains the sender's name, a time object, a date object, and the message text. 
+Preliminaries accesses a hardcoded relative filepath, turns the file it finds into an array of strings, sorts out mistakes introduced by splitting by '\n', and then generates another array, deceptively called @master_array, from the strings. @master_array is an array of tuples, or sub-arrays, each one corresponding to a message. A given tuple contains the sender's name, a time object, a date object, and the message text. 
 
 From @master_array, a method finds the unique participants and the start and end date of the chat. Other methods get CLI user input to choose which participants and dates to analyse for. @trimmed_array is created from @master_array, and selects-out all messages outside the date-range. @master_array is no longer relevant: @trimmed_array represents the conversation to be analysed. For each participant the user identifies by name, potentially including 'all combined', a Participant object is created, and their name is assigned to its name attribute. These Person objects are placed inside an @participants array. 
 
