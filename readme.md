@@ -10,11 +10,11 @@ https://www.ruby-lang.org/en/documentation/installation/
 
 ### Install Flammarion ###
 
-A gem is a program pertinent to Ruby. Once you have Ruby, you can install them by typing
+A gem is a program pertinent to Ruby. Once you have Ruby, you can install them by typing this into your console:
 
 	gem install gem_name
 
-into your console. This program uses Flammarion, a GUI gem. Unless you know you have Flammarion, you don't. Furthermore, if you try to install it but already have it, nothing will happen. Install Flammarion by entering
+This program uses Flammarion, a GUI gem. Unless you know you have Flammarion, you probably don't. Furthermore, if you try to install it but already have it, nothing will happen. Install Flammarion by entering
 
 	gem install Flammarion
 
