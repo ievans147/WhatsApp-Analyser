@@ -1,6 +1,6 @@
 This is a program for analysing WhatsApp chats and producing statistics. The program is launched and configured in the command line, and outputs data in a GUI. This readme covers the necessary steps for using it.
 
-### Checking whether you have Ruby installed and installing it if not. ###
+### Check whether you have Ruby installed and install it if not. ###
 
 To check if you have ruby installed, run ruby -v in the command line. Macs come with Ruby 1.9, I believe. PCs do not come with Ruby installed. This program was written and tested for Ruby 2.5.
 
